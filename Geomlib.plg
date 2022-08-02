@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Geomlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\YangSky\LOCALS~1\Temp\RSPB3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"Release/" /Fp"Release/Geomlib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VCWork\Geom¿â\Geomlib\Circle.cpp"
+"D:\VCWork\Geom¿â\Geomlib\Dot.cpp"
+"D:\VCWork\Geom¿â\Geomlib\Line.cpp"
+"D:\VCWork\Geom¿â\Geomlib\Polygon.cpp"
+"D:\VCWork\Geom¿â\Geomlib\Rect.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\YangSky\LOCALS~1\Temp\RSPB3.tmp" 
+Creating temporary file "C:\DOCUME~1\YangSky\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"Release/" /Fp"Release/Geomlib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VCWork\Geom¿â\Geomlib\StdAfx.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\YangSky\LOCALS~1\Temp\RSPB4.tmp" 
+Creating temporary file "C:\DOCUME~1\YangSky\LOCALS~1\Temp\RSPB5.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/Geomlib.pdb" /machine:I386 /out:"Release/Geomlib.dll" /implib:"Release/Geomlib.lib" 
+".\Release\Circle.obj"
+".\Release\Dot.obj"
+".\Release\Line.obj"
+".\Release\Polygon.obj"
+".\Release\Rect.obj"
+".\Release\StdAfx.obj"
+".\Release\Geomlib.res"
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\YangSky\LOCALS~1\Temp\RSPB5.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Circle.cpp
+Dot.cpp
+Line.cpp
+Polygon.cpp
+Rect.cpp
+D:\VCWork\Geom¿â\Geomlib\Rect.cpp(208) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\VCWork\Geom¿â\Geomlib\Rect.cpp(209) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\VCWork\Geom¿â\Geomlib\Rect.cpp(211) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\VCWork\Geom¿â\Geomlib\Rect.cpp(212) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\VCWork\Geom¿â\Geomlib\Rect.cpp(214) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\VCWork\Geom¿â\Geomlib\Rect.cpp(215) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\VCWork\Geom¿â\Geomlib\Rect.cpp(217) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\VCWork\Geom¿â\Geomlib\Rect.cpp(218) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Generating Code...
+Linking...
+xilink6: executing 'C:\PROGRA~1\MICROS~3\VC98\Bin\link.exe'
+   Creating library Release/Geomlib.lib and object Release/Geomlib.exp
+Creating command line "bscmake.exe /nologo /o"Release/Geomlib.bsc"  ".\Release\StdAfx.sbr" ".\Release\Circle.sbr" ".\Release\Dot.sbr" ".\Release\Line.sbr" ".\Release\Polygon.sbr" ".\Release\Rect.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Geomlib.dll - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>
